@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.mobile {
+  display: none;
+}
+
+body {
+  position: relative;
+}
+
+.invisible {
+  display: none;
+}
+
+main {
+  height: 160vh;
+  background: url(./images/Header-llustration-desktop@2x.png) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: -33px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 12px;
+  font-weight: bolder;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 160px 0;
+}
+
+h1 {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  text-align: center;
+  color: #172b4d;
+  margin: 24px;
+  transition: transform 1s ease-in-out;
+}
+
+h1:hover {
+  transform: scale(1.2);
+}
+
+.primary {
+  display: block;
+  color: #36b37e;
+}
+
+p {
+  width: 55%;
+  height: 96px;
+  margin: 24px 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+}
+
+.social li a i {
+  color: #505f79;
+}
+
+.dropdown {
+  margin: 84px auto;
+  color: #505f79;
+}
