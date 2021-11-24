@@ -1,3 +1,4 @@
+/* This is a styling for the whole screen */
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +18,7 @@ main {
   height: inherit;
   background: url(./images/header-illsutration-mobile@2x.png) no-repeat center center/cover;
 }
-
+/* This is a styling for the invisible class  */
 .invisible {
   display: none;
 }
