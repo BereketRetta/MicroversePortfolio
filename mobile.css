@@ -295,9 +295,8 @@ button {
   font-size: 20px;
   line-height: 32px;
   text-align: center;
-  color: #7F8CFF;
+  color: #7f8cff;
   margin: 14px 20px;
-
 }
 
 .grid-item {
@@ -327,7 +326,7 @@ button {
 }
 
 .default-row-spacer {
-  margin-bottom:30px;
+  margin-bottom: 30px;
   margin-right: 980px;
 }
 
@@ -344,7 +343,7 @@ button {
 
 .language-list {
   margin: 10px 40px;
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
   padding: 13px 4px;
 }
 
@@ -365,5 +364,5 @@ button {
   font-size: 20px;
   line-height: 32px;
   border-bottom: 0.1px solid #999;
-
 }
+
