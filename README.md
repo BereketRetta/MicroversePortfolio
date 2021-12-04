@@ -6,7 +6,7 @@
 
 <!-- ![screenshot](./app_screenshot.png) -->
 
-This is a simple hello world project
+This project is my first portfolio pweb page built by using html and css. This project used many web technologies. you can clone and play-around.
 
 ## Built With
 
@@ -22,6 +22,12 @@ This is a simple hello world project
 
 
 you can clone and play around :) 
+git clone https://github.com/BereketRetta/MicroversePortfolio.git
+cd MicroversePortfolio
+
+## Issues
+
+you can go to this link for issues https://github.com/BereketRetta/MicroversePortfolio/issues
 
 
 ## Authors
