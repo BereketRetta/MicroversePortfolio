@@ -4,7 +4,7 @@
 
 > This project is my portfolio page 
 
-<!-- ![screenshot](./app_screenshot.png) -->
+![screenshot](./images/screenshot101.png)
 
 This is a simple hello world project
 
