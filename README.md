@@ -1,12 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello-world
+# Portfolio-Page
 
 > This project is my portfolio page 
 
 ![screenshot](./images/screenshot101.png)
 
-<!-- This is a simple hello world project -->
+This project is my first portfolio pweb page built by using html and css. This project used many web technologies. you can clone and play-around.
+
 
 ## Built With
 
@@ -22,6 +23,12 @@
 
 
 you can clone and play around :) 
+git clone https://github.com/BereketRetta/MicroversePortfolio.git
+cd MicroversePortfolio
+
+## Issues
+
+you can go to this link for issues https://github.com/BereketRetta/MicroversePortfolio/issues
 
 
 ## Authors
