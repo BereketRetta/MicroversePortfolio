@@ -6,7 +6,7 @@
 
 ![screenshot](./images/screenshot101.png)
 
-This is a simple hello world project
+<!-- This is a simple hello world project -->
 
 ## Built With
 
