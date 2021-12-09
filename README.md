@@ -37,7 +37,7 @@ you can go to this link for issues https://github.com/BereketRetta/MicroversePor
 
 - GitHub: [@bereketretta](https://github.com/BereketRetta)
 - Twitter: [@bekiopia](https://twitter.com/bekiopia)
-- LinkedIn: [Bereket-Retta](https://linkedin.com/in/bereketretta)
+- LinkedIn: [Bereket-Retta](https://linkedin.com/in/bereket-retta)
 
 ## 🤝 Contributing
 
