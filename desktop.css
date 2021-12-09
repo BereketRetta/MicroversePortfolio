@@ -207,8 +207,7 @@ button {
   position: absolute;
   left: calc(100% - 259.5px);
   top: calc(0% - 100px);
-  background: url(./images/illustration-about-me-1-desktop@2x.png) no-repeat
-    center center/cover;
+  background: url(./images/illustration-about-me-1-desktop@2x.png) no-repeat center center/cover;
   height: 264.7px;
   width: 259.5px;
 }
@@ -571,4 +570,3 @@ form {
   width: 80%;
   margin: auto;
 }
-
