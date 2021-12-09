@@ -195,6 +195,10 @@ button {
   margin: 25px 10px;
 }
 
+button:hover {
+  background: hsl(154, 51%, 29%);
+}
+
 .aboutme-text {
   position: relative;
   display: flex;
