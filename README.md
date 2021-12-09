@@ -6,7 +6,7 @@
 
 ![screenshot](./images/screenshot101.png)
 
-This project is my first portfolio pweb page built by using html and css. This project used many web technologies. you can clone and play-around.
+This project is my portfolio web page built by using html and css. This project used many web technologies. you can clone and play-around.
 
 
 ## Built With
@@ -35,9 +35,9 @@ you can go to this link for issues https://github.com/BereketRetta/MicroversePor
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/BereketRetta)
-- Twitter: [@twitterhandle](https://twitter.com/bekiopia)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/bereketretta)
+- GitHub: [@bereketretta](https://github.com/BereketRetta)
+- Twitter: [@bekiopia](https://twitter.com/bekiopia)
+- LinkedIn: [Bereket-Retta](https://linkedin.com/in/bereketretta)
 
 ## 🤝 Contributing
 
