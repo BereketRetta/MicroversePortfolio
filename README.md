@@ -14,9 +14,9 @@ This project is my portfolio web page built by using html and css. This project 
 - HTML
 - CSS
 
-<!-- ## Live Demo
+## Live Demo
 
-[Live Demo Link](https://livedemo.com) -->
+[Live Demo Link](https://bereketretta.github.io/MicroversePortfolio/)
 
 
 ## Getting Started
