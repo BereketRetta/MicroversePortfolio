@@ -63,7 +63,7 @@ h1 {
   text-align: center;
   color: #172b4d;
   margin: 24px;
-  transition: transform 1s ease-in-out;
+  transition: transform 2s ease-in-out;
 }
 
 h1:hover {
@@ -193,6 +193,10 @@ button {
   color: #fff;
   background: #36b37f;
   margin: 25px 10px;
+}
+
+button:hover {
+  background: hsl(154, 51%, 29%);
 }
 
 .aboutme-text {
