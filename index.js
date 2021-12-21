@@ -11,6 +11,9 @@ const projects = [{
   lang7: 'Webpack',
   lang8: 'Github',
 }];
+const [project] = projects;
+const button = document.querySelectorAll(".popup");
+const popup = document.querySelector(".popup-window");
 
 
 popup.innerHTML = `<div class="container">
