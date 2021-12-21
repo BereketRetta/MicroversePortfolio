@@ -1,15 +1,15 @@
 const projects = [{
-    title: 'To do list app',
-    image: 'images/Screenshot24.png',
-    description: 'A simple to do list Application which dynamically renders tasks in JavaScript using the Webpack. Projects and tasks can be created and stored in Web browser"s local storage.',
-    lang1: 'html',
-    lang2: 'css',
-    lang3: 'JavaScript',
-    lang4: 'Bootstrap',
-    lang5: 'gpages',
-    lang6: 'Terminal',
-    lang7: 'Webpack',
-    lang8: 'Github',
+  title: 'To do list app',
+  image: 'images/Screenshot24.png',
+  description: 'A simple to do list Application which dynamically renders tasks in JavaScript using the Webpack. Projects and tasks can be created and stored in Web browser"s local storage.',
+  lang1: 'html',
+  lang2: 'css',
+  lang3: 'JavaScript',
+  lang4: 'Bootstrap',
+  lang5: 'gpages',
+  lang6: 'Terminal',
+  lang7: 'Webpack',
+  lang8: 'Github',
 }];
 
 const [project] = projects;
