@@ -148,3 +148,15 @@ for (let i = 0; i < menuLis.length; i += 1) {
     menu.classList.replace('menu', 'invisible');
   });
 }
+
+function isLower(str) {
+  return !(/[a-z]/.test(str) && !/[A-Z]/.test(str));
+}
+
+const form = document.querySelector('.form');
+const emailInput = document.querySelector('[type=email]');
+const textInput = document.querySelector('[type=text]');
+const textArea = document.querySelector('textarea');
+const errorInput = document.querySelector('.error');
+const formInput = [textInput, emailInput, textArea];
+
