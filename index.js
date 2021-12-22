@@ -1,16 +1,95 @@
-const projects = [{
-  title: 'To do list app',
-  image: 'images/Screenshot24.png',
-  description: 'A simple to do list Application which dynamically renders tasks in JavaScript using the Webpack. Projects and tasks can be created and stored in Web browser"s local storage.',
-  lang1: 'html',
-  lang2: 'css',
-  lang3: 'JavaScript',
-  lang4: 'Bootstrap',
-  lang5: 'gpages',
-  lang6: 'Terminal',
-  lang7: 'Webpack',
-  lang8: 'Github',
-}];
+const projects = [
+  {
+    title: 'News-Grid',
+    description: 'A Simple News website that has multiple pages and can also help produce a desired news story on the web',
+    image: 'images/Screenshot24.png',
+    lang1: 'html',
+    lang2: 'css',
+    lang3: 'JavaScript',
+    lang4: 'Bootstrap',
+    lang5: 'gpages',
+    lang6: 'Terminal',
+    lang7: 'Webpack',
+    lang8: 'Github',
+    liveVersion: 'https://bereketretta.github.io/newsgrid',
+    source: 'https://github.com/BereketRetta/newsgrid',
+  },
+  {
+    title: 'News-Grid',
+    description: 'A Simple News website that has multiple pages and can also help produce a desired news story on the web',
+    image: 'images/Screenshot24.png',
+    lang1: 'html',
+    lang2: 'css',
+    lang3: 'JavaScript',
+    lang4: 'Bootstrap',
+    lang5: 'gpages',
+    lang6: 'Terminal',
+    lang7: 'Webpack',
+    lang8: 'Github',
+    liveVersion: 'https://bereketretta.github.io/newsgrid',
+    source: 'https://github.com/BereketRetta/newsgrid',
+  },
+  {
+    title: 'News-Grid',
+    description: 'A Simple News website that has multiple pages and can also help produce a desired news story on the web',
+    image: 'images/Screenshot24.png',
+    lang1: 'html',
+    lang2: 'css',
+    lang3: 'JavaScript',
+    lang4: 'Bootstrap',
+    lang5: 'gpages',
+    lang6: 'Terminal',
+    lang7: 'Webpack',
+    lang8: 'Github',
+    liveVersion: 'https://bereketretta.github.io/newsgrid',
+    source: 'https://github.com/BereketRetta/newsgrid',
+  },
+  {
+    title: 'News-Grid',
+    description: 'A Simple News website that has multiple pages and can also help produce a desired news story on the web',
+    image: 'images/Screenshot24.png',
+    lang1: 'html',
+    lang2: 'css',
+    lang3: 'JavaScript',
+    lang4: 'Bootstrap',
+    lang5: 'gpages',
+    lang6: 'Terminal',
+    lang7: 'Webpack',
+    lang8: 'Github',
+    liveVersion: 'https://bereketretta.github.io/newsgrid',
+    source: 'https://github.com/BereketRetta/newsgrid',
+  },
+  {
+    title: 'News-Grid',
+    description: 'A Simple News website that has multiple pages and can also help produce a desired news story on the web',
+    image: 'images/Screenshot24.png',
+    lang1: 'html',
+    lang2: 'css',
+    lang3: 'JavaScript',
+    lang4: 'Bootstrap',
+    lang5: 'gpages',
+    lang6: 'Terminal',
+    lang7: 'Webpack',
+    lang8: 'Github',
+    liveVersion: 'https://bereketretta.github.io/newsgrid',
+    source: 'https://github.com/BereketRetta/newsgrid',
+  },
+  {
+    title: 'News-Grid',
+    description: 'A Simple News website that has multiple pages and can also help produce a desired news story on the web',
+    image: 'images/Screenshot24.png',
+    lang1: 'html',
+    lang2: 'css',
+    lang3: 'JavaScript',
+    lang4: 'Bootstrap',
+    lang5: 'gpages',
+    lang6: 'Terminal',
+    lang7: 'Webpack',
+    lang8: 'Github',
+    liveVersion: 'https://bereketretta.github.io/newsgrid',
+    source: 'https://github.com/BereketRetta/newsgrid',
+  }
+];
 
 const [project] = projects;
 const button = document.querySelectorAll('.popup');
@@ -38,8 +117,8 @@ popup.innerHTML = `<div class='container'>
 </ul>
 <p class="description">${project.description}</p>
 <div class="buttons mobile">
-<button><a href="#" target="_blank">See Live</a><span><img src="./images/Icon-Export.png" alt="github"></span></button>
-<button><a href="#" target="_blank">See Source</a><span><img src="./images/Git.png" alt="github"></span></button>
+<button><a href="${project.liveVersion}" target="_blank">See Live</a><span><img src="./images/Icon-Export.png" alt="github"></span></button>
+<button><a href="${project.source}" target="_blank">See Source</a><span><img src="./images/Git.png" alt="github"></span></button>
 </div>
 </div>`;
 
