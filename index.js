@@ -160,3 +160,15 @@ const textArea = document.querySelector('textarea');
 const errorInput = document.querySelector('.error');
 const formInput = [textInput, emailInput, textArea];
 
+function error() {
+  if (emailInput.validity.valueMissing) {
+    errorInput.innerHTML = '* Please enter an email address';
+    errorInput.classList.replace('invisible', 'error');
+  } else if (emailInput.validity.typeMismatch) {
+    errorInput.innerHTML = '* Please Enter Valid email (include "@" and a domain name)';
+    errorInput.classList.replace('invisible', 'error');
+  } else if (isLower(emailInput)) {
+    errorInput.innerHTML = '* Your email address should be lowercase letters';
+    errorInput.classList.replace('invisible', 'error');
+  }
+}
