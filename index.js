@@ -88,7 +88,7 @@ const projects = [
     lang8: 'Github',
     liveVersion: 'https://bereketretta.github.io/newsgrid',
     source: 'https://github.com/BereketRetta/newsgrid',
-  }
+  },
 ];
 
 const [project] = projects;
