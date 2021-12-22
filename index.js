@@ -172,3 +172,10 @@ function error() {
     errorInput.classList.replace('invisible', 'error');
   }
 }
+
+form.addEventListener('submit', (e) => {
+  if (!emailInput.validity.valid || isLower(emailInput.value)) {
+    error();
+    e.preventDefault();
+  }
+});
