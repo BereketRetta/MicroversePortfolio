@@ -158,7 +158,6 @@ const emailInput = document.querySelector('[type=email]');
 const textInput = document.querySelector('[type=text]');
 const textArea = document.querySelector('textarea');
 const errorInput = document.querySelector('.error');
-const formInput = [textInput, emailInput, textArea];
 
 function error() {
   if (emailInput.validity.valueMissing) {
