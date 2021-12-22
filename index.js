@@ -155,8 +155,6 @@ function isLower(str) {
 
 const form = document.querySelector('.form');
 const emailInput = document.querySelector('[type=email]');
-const textInput = document.querySelector('[type=text]');
-const textArea = document.querySelector('textarea');
 const errorInput = document.querySelector('.error');
 
 function error() {
