@@ -148,3 +148,31 @@ for (let i = 0; i < menuLis.length; i += 1) {
     menu.classList.replace('menu', 'invisible');
   });
 }
+
+function isLower(str) {
+  return !(/[a-z]/.test(str) && !/[A-Z]/.test(str));
+}
+
+const form = document.querySelector('.form');
+const emailInput = document.querySelector('[type=email]');
+const errorInput = document.querySelector('.error');
+
+function error() {
+  if (emailInput.validity.valueMissing) {
+    errorInput.innerHTML = '* Please enter an email address';
+    errorInput.classList.replace('invisible', 'error');
+  } else if (emailInput.validity.typeMismatch) {
+    errorInput.innerHTML = '* Please Enter Valid email (include "@" and a domain name)';
+    errorInput.classList.replace('invisible', 'error');
+  } else if (isLower(emailInput)) {
+    errorInput.innerHTML = '* Your email address should be all lowercase letters';
+    errorInput.classList.replace('invisible', 'error');
+  }
+}
+
+form.addEventListener('submit', (e) => {
+  if (!emailInput.validity.valid || isLower(emailInput.value)) {
+    error();
+    e.preventDefault();
+  }
+});
