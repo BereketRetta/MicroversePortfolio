@@ -165,7 +165,7 @@ function error() {
     errorInput.innerHTML = '* Please Enter Valid email (include "@" and a domain name)';
     errorInput.classList.replace('invisible', 'error');
   } else if (isLower(emailInput)) {
-    errorInput.innerHTML = '* Your email address should be lowercase letters';
+    errorInput.innerHTML = '* Your email address should be all lowercase letters';
     errorInput.classList.replace('invisible', 'error');
   }
 }
