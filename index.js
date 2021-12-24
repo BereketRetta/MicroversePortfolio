@@ -202,4 +202,4 @@ function setForm() {
   }
 }
 
-setForm();
+setForms();
